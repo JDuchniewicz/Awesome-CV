@@ -1,66 +1,45 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 \fontdir[fonts/]
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-skyblue}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
 
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
+% Color for highlights
+\colorlet{awesome}{awesome-skyblue}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
 
-% If you would like to change the social information separator from a pipe (|) to something else
+% Social info separator
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-% Available options: circle|rectangle,edge/noedge,left/right
 \name{Jakub Jan}{Duchniewicz}
-\position{Senior Embedded and Software Engineer{\enskip\cdotp\enskip}Team Leader}
+\position{Senior Embedded and Software Engineer{\enskip\cdotp\enskip}Team Lead}
 
 \email{j.duchniewicz@gmail.com}
 \homepage{www.jduchniewicz.com}
 \github{JDuchniewicz}
 \linkedin{jduchnie}
 
-%\quote{``Success is 5\% talent and 95\% hard work"}
-
-
-%-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
 
+%-------------------------------------------------------------------------------
+% SUMMARY
+%-------------------------------------------------------------------------------
 \cvsection{Summary}
-\newline
-I am a Senior Embedded Engineer and (sometimes) a team leader at Tietoevry, specializing in developing L1 features for 5G NR on custom ASICs and designing complex systems. With an MSc in Embedded Systems and a minor in Innovation and Entrepreneurship, I bring a strong technical background and innovative mindset to my work.
 
-My expertise spans embedded systems, FPGA, Linux, audio/video processing, game engine development, and machine learning. Proficient in C, C++, and Rust, I focus on embedded machine learning, security, and reverse engineering.
+Engineer working at the intersection of hardware and software, with strong technical, interpersonal, and team leadership skills. My background spans embedded and operating systems, Linux, seL4, FPGAs, low-level performance work, and complex telecommunications systems. Over the past five years, I have focused extensively on 5G and LTE, contributing across modem software, O-RAN systems, ASIC- and FPGA-adjacent development, and hardware/software bring-up.
 
-As a co-founder of Sticky Piston Studios, I innovate at the intersection of technology and creativity. I've presented at conferences such as the Embedded Open Source Summit, FOSDEM or State of Open Con, discussing AI-powered wearable health monitors and hardware acceleration using FPGAs, showcasing my frequent engagement with the tech community.
-
-Mentoring is a passion, and I regularly share my knowledge through blog posts on my personal website. Additionally, I am an avid game jammer, consistently winning prizes for my creative and technical contributions.
+I am proficient in C, C++, and Rust, with particular interests in hardware acceleration, security, and reverse engineering. As a co-founder of Sticky Piston Studios, I also work at the intersection of technology and creativity. I have presented at conferences including the Embedded Open Source Summit, FOSDEM, and Hackaday Supercon.
 
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
+% CV / RESUME CONTENT
 %-------------------------------------------------------------------------------
 \input{cv/experience.tex}
 \input{cv/education.tex}
-\vspace{20mm} % otherwise shitty formatting
 \input{cv/extracurricular.tex}
 \input{cv/presentation.tex}
 \input{cv/skills.tex}
 \input{cv/honors.tex}
 
-%-------------------------------------------------------------------------------
 \end{document}
