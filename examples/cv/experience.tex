@@ -9,75 +9,79 @@
 \begin{cventries}
 
   \cventry
-    {Operating System Engineer}
-    {Trustworthy Systems, UNSW}
-    {Sydney, Australia}
-    {Oct. 2025 -- Present}
-    {
-      \begin{cvitems}
-        \item {Developed drivers and board support for the Radxa Rock 3B in seL4 and Microkit-based systems.}
-        \item {Extended CI coverage and regression testing for the sDDF project.}
-        \item {Identified and fixed a cross-platform cycle regression caused by incorrect FPU configuration.}
-        \item {Implemented and integrated an sDDF virtual switch component.}
-      \end{cvitems}
-    }
-
-  \cventry
-  {Senior Embedded and Software Engineer}
-  {Tietoevry --- client engagements: Intel, Sequans, United Micro}
-  {Remote (Wrocław, Poland)}
-  {Dec. 2021 -- Oct. 2025}
+  {Operating System Engineer}
+  {Trustworthy Systems, UNSW}
+  {Sydney, Australia}
+  {Oct. 2025 -- Present}
   {
     \begin{cvitems}
-      \item {Led, supported, and mentored engineers across embedded and telecommunications projects.}
-      \item {Implemented 5G features on custom ASIC modem platforms, working across low-level C, firmware, and hardware/software debugging.}
-      \item {Architected and implemented O-RAN-compliant software, including L2 functionality, FlexRAN-based components, and translation-layer features between IAPI and FAPI.}
-      \item {Introduced fuzzing of the L1--L2 interface with libFuzzer and investigated issues in DPDK drivers and related networking components.}
-      \item {\textbf{Intel} ({Jun. 2022 -- Oct. 2023}): led the O-RAN M-Plane project, contributed to the FlexRAN 5G solution, implemented L1 and L2 features, performed low-level optimization, and supported hiring and technical leadership.}
-      \item {\textbf{Sequans} ({Nov. 2023 -- Jun. 2024}): designed and delivered a bare-metal modem driver, developed blind decoding for the 5G PDCCH PHY channel, and validated custom ASIC RTL against driver behavior in a real-time system.}
-      \item {\textbf{United Micro} ({Jul. 2024 -- Jul. 2025}): ported firmware and platform code to a 5G eRedCap solution, implemented RSSI scan and L1 synchronization, and debugged RTL and software during bring-up while optimizing memory layout and execution speed.}
+      \item {Developed drivers and board support for the Radxa Rock 3B in seL4 kernel and Microkit-based systems.}
+      \item {Extended CI pipeline and regression testing for the sDDF project, improving confidence in platform support and system changes.}
+      \item {Diagnosed and fixed a cross-platform cycle regression caused by incorrect FPU configuration, restoring expected performance characteristics.}
+      \item {Designed, implemented, integrated, and tested a virtual switch sDDF component, allowing for a more complete system stack where virtio-based VMs can talk to each other and external world.}
     \end{cvitems}
   }
 
   \cventry
-    {Co-founder / Software Engineer}
-    {Sticky Piston Studios}
-    {Remote}
-    {Dec. 2020 -- Present}
-    {
-      \begin{cvitems}
-        \item {Co-founded a studio building products at the intersection of web, game, and embedded technologies.}
-        \item {Designed and shipped City Event Map, later deployed in the Vilnius region, Lithuania.}
-        \item {Designed and shipped websites for two prestigious Polish law firms. }
-        \item {Built full-stack applications spanning frontend, backend, databases, DevOps, and product design.}
-      \end{cvitems}
-    }
+  {Senior Embedded and Software Engineer}
+  {Tietoevry --- client engagements: Intel, Sequans, United Micro (later Bridgecom)}
+  {Remote (Wrocław, Poland)}
+  {Dec. 2021 -- Oct. 2025}
+  {
+    \begin{cvitems}
+      \item {Led, supported, and mentored engineers across embedded and telecommunications projects, combining hands-on development with technical coordination and customer-facing work.}
+      \item {Worked across 5G modem, O-RAN, and low-level systems software, contributing in areas including performance optimization, security hardening, fuzzing, protocol-layer development, and hardware/software debugging.}
+      \item {Participated in client-facing technical discussions and bids, helping shape delivery approaches and technical scope for prospective engagements.}
+      \item {Took ownership of difficult technical areas where specifications, software, and hardware behavior diverged, especially in performance-critical and integration-heavy environments.}
+      \item {\textbf{Intel} ({Dec. 2021 -- Jul. 2022}): worked on performance, security, and fuzzing coverage, finding and fixing multiple bugs in production-relevant code paths and improving confidence in release readiness.}
+      \item {\textbf{Intel} ({Aug. 2022 -- Oct. 2023}): initially developed new 5G features for FlexRAN (support for new bands, 5G SA improvements); later led a team of 7 engineers, designed the architecture and interfaces, chose programming languages, tools and collaborated closely with 2 additional teams for a year to deliver an O-RAN M-plane solution.}
+      \item {\textbf{Sequans} ({Nov. 2023 -- Jun. 2024}): designed and delivered a bare-metal modem driver and implemented blind decoding for the 5G PDCCH PHY channel.}
+      \item {\textbf{Sequans} ({Nov. 2023 -- Jun. 2024}): resolved issues at the hardware/software boundary by diagnosing unstable behavior, identifying root causes from incomplete specifications, and implementing practical software workarounds during bring-up.}
+      \item {\textbf{United Micro} ({Jul. 2024 -- Jul. 2025}): ported firmware and low-level code to a 5G eRedCap solution, implemented RSSI scan in L1 synchronization layer, designed CSI-RS handling and made system-level design decisions during bring-up with partial specifications and evolving hardware behavior.}
+      \item {\textbf{United Micro} ({Jul. 2024 -- Jul. 2025}): brought-up RSSI scan procedure from the ground up, debugged RTL and software in tandem, resolved integration issues, and improved memory layout and runtime behavior in performance-sensitive paths.}
+    \end{cvitems}
+  }
 
   \cventry
-    {Embedded Software Engineer}
-    {Google Summer of Code, BeagleBoard.org}
-    {Remote}
-    {May 2021 -- Aug. 2021}
-    {
-      \begin{cvitems}
-        \item {Built a C library for GPGPU acceleration on BeagleBone Black using OpenGL ES 2.0 and EGL.}
-        \item {Implemented scalar, array, and 2D convolution operations with both single-shot and chained APIs.}
-        \item {Benchmarked performance across multiple data sizes and documented the project publicly.}
-      \end{cvitems}
-    }
+  {Co-founder / Software Engineer}
+  {Sticky Piston Studios}
+  {Remote}
+  {Dec. 2020 -- Present}
+  {
+    \begin{cvitems}
+      \item {Co-founded a studio building products and technical prototypes at the intersection of software, embedded systems, and interactive media.}
+      \item {Designed and shipped City Event Map, later deployed in the Vilnius region, Lithuania.}
+      \item {Acted as an architect and maintainer for internal product codebases, making system-level technical decisions across implementation, tooling, and deployment.}
+      \item {Maintain and evolve in-house projects, including open-source work on Pill Engine.}
+    \end{cvitems}
+  }
 
   \cventry
-    {Junior Software Engineer}
-    {Samsung Electronics}
-    {Warsaw, Poland / Suwon, South Korea}
-    {Dec. 2017 -- Mar. 2020}
-    {
-      \begin{cvitems}
-        \item {Improved Tizen broadcast middleware in C++, C, and ARM assembly.}
-        \item {Optimized performance in a major broadcast pipeline through refactoring and thread-level improvements.}
-        \item {Built multithreaded middleware and internal Python/Bash tooling for debugging and defect analysis.}
-        \item {Supported commercialization efforts in South Korea and cross-team defect resolution.}
-      \end{cvitems}
-    }
+  {Embedded Software Engineer}
+  {Google Summer of Code, BeagleBoard.org}
+  {Remote}
+  {May 2021 -- Aug. 2021}
+  {
+    \begin{cvitems}
+      \item {Built a C library enabling GPGPU-style computation on BeagleBone Black using OpenGL ES 2.0 and EGL.}
+      \item {Implemented reusable computation pipelines including scalar operations, array operations, and 2D convolution.}
+      \item {Benchmarked performance across varying data sizes and documented the work publicly.}
+    \end{cvitems}
+  }
+
+  \cventry
+  {Junior Software Engineer}
+  {Samsung Electronics}
+  {Warsaw, Poland / Suwon, South Korea}
+  {Feb. 2018 -- Mar. 2020}
+  {
+    \begin{cvitems}
+      \item {Owned a production broadcast middleware component in Tizen across 3 release cycles. Working in C++, C, and ARM assembly across development, debugging, optimization, and release support.}
+      \item {Improved performance and reliability in a major embedded broadcast pipeline by 20\% through targeted refactoring, thread-level optimization, and careful analysis of runtime behavior.}
+      \item {Supported production releases and client-facing escalations, including overseas defect handling and on-site support during commercialization in South Korea.}
+      \item {Investigated coredumps, logs, and system failures to diagnose issues quickly and provide fixes or actionable guidance to dependent teams.}
+      \item {Built internal tools and automation in Python and Bash to improve debugging, defect analysis, and engineering efficiency.}
+    \end{cvitems}
+  }
 
 \end{cventries}
